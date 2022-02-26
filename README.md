@@ -16,7 +16,5 @@ To ensure all dependencies are resolved in a CI environment, in one go, add them
 
 If your tests are contained inside a folder 'Tests', then run the following command : `pytest Tests` 
 
-To generate xml results, run the following command : `pytest Tests --junitxml="result.xml"`
+# CoreDeepSkillsApiTests
 
-# CoreDeepSkillsApiTests
-# CoreDeepSkillsApiTests
