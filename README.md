@@ -6,7 +6,7 @@
 
 ## Getting started
 
-* To download and install `pytest`, run this command from the terminal : `pip install pytest` `and pip3 install pytest` for mac 
+* To download and install `pytest`, run this command from the terminal : `pip install pytest` `or pip3 install pytest` for mac 
 * To download and install `requests`, run this command from the terminal : `pip install requests`
 
 To ensure all dependencies are resolved in a CI environment, in one go, add them to a `requirements.txt` file.
