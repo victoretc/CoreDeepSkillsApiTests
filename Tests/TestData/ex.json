@@ -1,0 +1,1079 @@
+{
+    "title": "Введение в Data Science на Python",
+    "description": "В этом курсе вы ознакомитесь с языком программирования Python и его применении в Data Science.",
+    "time": 4,
+    "lang": "python",
+    "slug": "introduction-to-data-science-in-python",
+    "status": "untouched",
+    "coauthors": [],
+    "career_tracks": [
+      {
+        "title": "Аналитик Данных"
+      }
+    ],
+    "datasets": [],
+    "count_videos": 13,
+    "count_exercises": 83,
+    "count_xps": 6180,
+    "instructor": {
+      "first_name": "Виталий",
+      "last_name": "Кулиев",
+      "description": "Закончил МФТИ. Программирую на Python около 10 лет. Последние 5 лет выбираю проекты, где машинное обучение и data science играют ключевую роль. На своем ютуб канале делюсь практическим опытом в разработке",
+      "subtitle": "Машинное обучение / Python",
+      "avatar_url": "https://storage.yandexcloud.net/deepskills-avatars/vitaly-kuliev.jpg"
+    },
+    "exercises": [
+      {
+        "type": "video",
+        "exercise_id": "002-introduction-to-data-science",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Введение в Data Science",
+        "id": 124
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "003-import-libraries",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Импорт библиотек",
+        "id": 119
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "004-import-libraries-part-1-ex-119",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Импорт библиотек (Часть 1)",
+        "id": 49
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "005-import-libraries-part-2-ex-119",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Импорт библиотек (Часть 2)",
+        "id": 50
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "006-import-libraries-part-3-ex-119",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Импорт библиотек (Часть 3)",
+        "id": 52
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "007-correction-of-an-error-in-import",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Исправление ошибки в импорте",
+        "id": 54
+      },
+      {
+        "type": "quiz",
+        "exercise_id": "008-how-to-fix-import-libraries",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Как исправить импорт библиотеки?",
+        "id": 126
+      },
+      {
+        "type": "video",
+        "exercise_id": "009-creating-variables",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Создание переменных",
+        "id": 128
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "010-working-with-numbers",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Работа с числами",
+        "id": 55
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "012-working-with-strings",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Работа со строками",
+        "id": 56
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "013-frequent-errors-when-working-with-strings",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Частые ошибки при работе со строками",
+        "id": 57
+      },
+      {
+        "type": "quiz",
+        "exercise_id": "014-acceptable-names-of-variables",
+        "xp": 30,
+        "status": "untouched",
+        "title": "Допустимые названия переменных",
+        "id": 127
+      },
+      {
+        "type": "video",
+        "exercise_id": "015-functions-in-python",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Функции в Python",
+        "id": 129
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "016-error-in-function-call",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Ошибка в вызове функции",
+        "id": 59
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "017-search-phone",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Поиск телефона",
+        "id": 120
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "018-search-phone-part-1-ex-120",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Поиск телефона (часть 1)",
+        "id": 60
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "020-search-phone-part-2-ex-120",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Поиск телефона (часть 2)",
+        "id": 61
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "021-search-phone-part-3-ex-120",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Поиск телефона (часть 3)",
+        "id": 62
+      },
+      {
+        "type": "video",
+        "exercise_id": "022-library-pandas",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Библиотека Pandas",
+        "id": 131
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "023-download-dataframe-pandas",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Загрузка датафрейма Pandas",
+        "id": 58
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "024-getting-to-know-the-dataframe",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Знакомимся с датафреймом",
+        "id": 136
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "025-getting-to-know-the-dataframe-ex-136",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Знакомимся с датафреймом",
+        "id": 134
+      },
+      {
+        "type": "quiz",
+        "exercise_id": "026-getting-to-know-the-dataframe-ex-136",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Знакомимся с датафреймом",
+        "id": 135
+      },
+      {
+        "type": "video",
+        "exercise_id": "028-working-with-columns-in-a-table",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Работаем со столбцами в таблице",
+        "id": 132
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "029-highlighting-columns-in-dataframe-ex-139",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Выделение столбцов в датафрейме",
+        "id": 137
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "030-highlighting-columns-in-dataframe-ex-139",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Выделение столбцов в датафрейме",
+        "id": 138
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "031-highlighting-columns-in-dataframe",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Выделение столбцов в датафрейме",
+        "id": 139
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "032-correction-of-errors-when-highlighting-columns",
+        "xp": 50,
+        "status": "untouched",
+        "title": " Исправление ошибок при выделении столбцов",
+        "id": 140
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "033-frequent-errors-when-highlighting-columns",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Частые ошибки при выделении столбцов ",
+        "id": 144
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "034-frequent-errors-when-highlighting-columns-1-3-ex-144",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Частые ошибки при выделении столбцов 1/3",
+        "id": 142
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "036-frequent-errors-when-highlighting-columns-2-3-ex-144",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Частые ошибки при выделении столбцов 2/3",
+        "id": 141
+      },
+      {
+        "type": "quiz",
+        "exercise_id": "037-frequent-errors-when-highlighting-columns-3-3-ex-144",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Частые ошибки при выделении столбцов 3/3",
+        "id": 143
+      },
+      {
+        "type": "video",
+        "exercise_id": "046-working-with-rows-in-a-table",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Работаем с рядами в таблице",
+        "id": 133
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "051-logical-expressions",
+        "xp": 200,
+        "status": "untouched",
+        "title": "Логические выражения",
+        "id": 148
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "053-logical-expressions-1-3-ex-148",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Логические выражения 1/3",
+        "id": 145
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "054-logical-expressions-2-3-ex-148",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Логические выражения 2/3",
+        "id": 146
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "055-logical-expressions-3-3-ex-148",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Логические выражения 3/3",
+        "id": 147
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "062-search-for-the-kidnapper",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Поиск похитителя",
+        "id": 149
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "072-analysis-of-logs-from-a-cellular-station-1-2-ex-152",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Анализ логов с сотовой станции 1/2",
+        "id": 150
+      },
+      {
+        "type": "quiz",
+        "exercise_id": "073-analysis-of-logs-from-a-cellular-station-2-2-ex-152",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Анализ логов с сотовой станции 2/2",
+        "id": 151
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "075-analysis-of-logs-from-a-cellular-station",
+        "xp": 200,
+        "status": "untouched",
+        "title": "Анализ логов с сотовой станции",
+        "id": 152
+      },
+      {
+        "type": "video",
+        "exercise_id": "001-linear-graphs",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Линейные графики",
+        "id": 179
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "076-building-a-linear-graph-ex-164",
+        "xp": 30,
+        "status": "untouched",
+        "title": "Построение линейного графика",
+        "id": 153
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "077-building-a-linear-graph-ex-164",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Построение линейного графика",
+        "id": 154
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "078-building-a-linear-graph-ex-164",
+        "xp": 20,
+        "status": "untouched",
+        "title": "Построение линейного графика",
+        "id": 163
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "079-building-a-linear-graph",
+        "xp": 200,
+        "status": "untouched",
+        "title": "Построение линейного графика",
+        "id": 164
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "082-plotting-based-on-dataframe",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Построение графика на основе датафрейма",
+        "id": 165
+      },
+      {
+        "type": "video",
+        "exercise_id": "091-adding-text-to-charts",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Добавляем текст на графики",
+        "id": 180
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "092-adding-legend-to-diagram-1-3-ex-170",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Добавляем легенду на диаграмму 1/3",
+        "id": 167
+      },
+      {
+        "type": "video",
+        "exercise_id": "099-dot-chart",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Точечная диаграмма",
+        "id": 201
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "101-building-a-dot-diagram",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Строим точечную диаграмму",
+        "id": 182
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "104-adding-legend-to-diagram-2-3-ex-170",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Добавляем легенду на диаграмму 2/3",
+        "id": 168
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "106-changing-the-dot-diagram",
+        "xp": 200,
+        "status": "untouched",
+        "title": "Изменяем точечную диаграмму",
+        "id": 186
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "112-changing-the-dot-diagram-1-3-ex-186",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Изменяем точечную диаграмму 1/3",
+        "id": 183
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "116-adding-legend-to-diagram-3-3-ex-170",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Добавляем легенду на диаграмму 3/3",
+        "id": 169
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "122-changing-the-dot-diagram-2-3-ex-186",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Изменяем точечную диаграмму 2/3",
+        "id": 184
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "128-adding-a-legend-to-diagram",
+        "xp": 200,
+        "status": "untouched",
+        "title": "Добавляем легенду на диаграмму",
+        "id": 170
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "132-changing-the-dot-diagram-3-3-ex-186",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Изменяем точечную диаграмму 3/3",
+        "id": 185
+      },
+      {
+        "type": "video",
+        "exercise_id": "134-bar-chart",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Столбиковая диаграмма",
+        "id": 202
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "136-bar-chart",
+        "xp": 200,
+        "status": "untouched",
+        "title": "Столбиковая диаграмма",
+        "id": 193
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "139-sign-axes-graphs",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Подписываем оси графиков",
+        "id": 171
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "142-bar-chart-1-3-ex-193",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Столбиковая диаграмма 1/3",
+        "id": 188
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "151-adding-text-to-diagram",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Добавляем текст на диаграмму",
+        "id": 172
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "152-bar-chart-2-3-ex-193",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Столбиковая диаграмма 2/3",
+        "id": 187
+      },
+      {
+        "type": "video",
+        "exercise_id": "160-changing-styles-charts",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Изменяем стили графиков",
+        "id": 181
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "161-style-lines-and-markers",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Стиль линий и маркеры",
+        "id": 173
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "162-bar-chart-3-3-ex-193",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Столбиковая диаграмма 3/3",
+        "id": 189
+      },
+      {
+        "type": "video",
+        "exercise_id": "164-histogram",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Гистограмма",
+        "id": 203
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "166-building-a-histogram",
+        "xp": 200,
+        "status": "untouched",
+        "title": "Строим гистограмму",
+        "id": 194
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "173-building-histogram-1-3-ex-194",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Строим гистограмму 1/3",
+        "id": 190
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "174-style-charts-1-3-ex-177",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Стиль диаграммы 1/3",
+        "id": 174
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "183-building-histogram-2-3-ex-194",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Строим гистограмму 2/3",
+        "id": 191
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "185-style-charts-2-3-ex-177",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Стиль диаграммы 2/3",
+        "id": 175
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "193-building-histogram-3-3-ex-194",
+        "xp": null,
+        "status": "untouched",
+        "title": "Строим гистограмму 3/3",
+        "id": 192
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "194-changing-style-histograms",
+        "xp": 250,
+        "status": "untouched",
+        "title": "Изменяем стиль гистограммы",
+        "id": 198
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "197-changing-style-histograms-1-3-ex-198",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Изменяем стиль гистограммы 1/3",
+        "id": 195
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "198-style-charts-3-3-ex-177",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Стиль диаграммы 3/3",
+        "id": 176
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "202-changing-style-histograms-2-3-ex-198",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Изменяем стиль гистограммы 2/3",
+        "id": 196
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "207-changing-style-histograms-3-3-ex-198",
+        "xp": 50,
+        "status": "untouched",
+        "title": "Изменяем стиль гистограммы 3/3",
+        "id": 197
+      },
+      {
+        "type": "bullet_point_exercise",
+        "exercise_id": "210-style-charts",
+        "xp": 200,
+        "status": "untouched",
+        "title": "Стиль диаграммы",
+        "id": 177
+      },
+      {
+        "type": "quiz",
+        "exercise_id": "211-we-find-the-criminal",
+        "xp": 200,
+        "status": "untouched",
+        "title": "Находим преступника!",
+        "id": 199
+      },
+      {
+        "type": "normal_exercise",
+        "exercise_id": "221-changing-basic-parameters-charts",
+        "xp": 200,
+        "status": "untouched",
+        "title": "Изменяем основные параметры диаграммы",
+        "id": 178
+      },
+      {
+        "type": "video",
+        "exercise_id": "224-the-criminal-is-caught",
+        "xp": 100,
+        "status": "untouched",
+        "title": "Преступник пойман",
+        "id": 204
+      }
+    ],
+    "parts": [
+      {
+        "name": "Основы языка Python",
+        "is_free": true,
+        "description": "",
+        "exercises": [
+          {
+            "type": "video",
+            "exercise_id": "002-introduction-to-data-science",
+            "xp": 50,
+            "status": "untouched",
+            "title": "Введение в Data Science",
+            "id": 124
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "003-import-libraries",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Импорт библиотек",
+            "id": 119
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "007-correction-of-an-error-in-import",
+            "xp": 20,
+            "status": "untouched",
+            "title": "Исправление ошибки в импорте",
+            "id": 54
+          },
+          {
+            "type": "quiz",
+            "exercise_id": "008-how-to-fix-import-libraries",
+            "xp": 20,
+            "status": "untouched",
+            "title": "Как исправить импорт библиотеки?",
+            "id": 126
+          },
+          {
+            "type": "video",
+            "exercise_id": "009-creating-variables",
+            "xp": 50,
+            "status": "untouched",
+            "title": "Создание переменных",
+            "id": 128
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "010-working-with-numbers",
+            "xp": 20,
+            "status": "untouched",
+            "title": "Работа с числами",
+            "id": 55
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "012-working-with-strings",
+            "xp": 20,
+            "status": "untouched",
+            "title": "Работа со строками",
+            "id": 56
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "013-frequent-errors-when-working-with-strings",
+            "xp": 20,
+            "status": "untouched",
+            "title": "Частые ошибки при работе со строками",
+            "id": 57
+          },
+          {
+            "type": "quiz",
+            "exercise_id": "014-acceptable-names-of-variables",
+            "xp": 30,
+            "status": "untouched",
+            "title": "Допустимые названия переменных",
+            "id": 127
+          },
+          {
+            "type": "video",
+            "exercise_id": "015-functions-in-python",
+            "xp": 50,
+            "status": "untouched",
+            "title": "Функции в Python",
+            "id": 129
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "016-error-in-function-call",
+            "xp": 20,
+            "status": "untouched",
+            "title": "Ошибка в вызове функции",
+            "id": 59
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "017-search-phone",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Поиск телефона",
+            "id": 120
+          }
+        ],
+        "slug": "getting-started-in-python"
+      },
+      {
+        "name": "Основы библиотеки Pandas",
+        "is_free": false,
+        "description": "",
+        "exercises": [
+          {
+            "type": "video",
+            "exercise_id": "022-library-pandas",
+            "xp": 50,
+            "status": "untouched",
+            "title": "Библиотека Pandas",
+            "id": 131
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "023-download-dataframe-pandas",
+            "xp": 20,
+            "status": "untouched",
+            "title": "Загрузка датафрейма Pandas",
+            "id": 58
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "024-getting-to-know-the-dataframe",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Знакомимся с датафреймом",
+            "id": 136
+          },
+          {
+            "type": "video",
+            "exercise_id": "028-working-with-columns-in-a-table",
+            "xp": 50,
+            "status": "untouched",
+            "title": "Работаем со столбцами в таблице",
+            "id": 132
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "031-highlighting-columns-in-dataframe",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Выделение столбцов в датафрейме",
+            "id": 139
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "032-correction-of-errors-when-highlighting-columns",
+            "xp": 50,
+            "status": "untouched",
+            "title": " Исправление ошибок при выделении столбцов",
+            "id": 140
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "033-frequent-errors-when-highlighting-columns",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Частые ошибки при выделении столбцов ",
+            "id": 144
+          },
+          {
+            "type": "video",
+            "exercise_id": "046-working-with-rows-in-a-table",
+            "xp": 50,
+            "status": "untouched",
+            "title": "Работаем с рядами в таблице",
+            "id": 133
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "051-logical-expressions",
+            "xp": 200,
+            "status": "untouched",
+            "title": "Логические выражения",
+            "id": 148
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "062-search-for-the-kidnapper",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Поиск похитителя",
+            "id": 149
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "075-analysis-of-logs-from-a-cellular-station",
+            "xp": 200,
+            "status": "untouched",
+            "title": "Анализ логов с сотовой станции",
+            "id": 152
+          }
+        ],
+        "slug": "pandas"
+      },
+      {
+        "name": "Строим графики с помощью библиотеки Matplotlib",
+        "is_free": false,
+        "description": "",
+        "exercises": [
+          {
+            "type": "video",
+            "exercise_id": "001-linear-graphs",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Линейные графики",
+            "id": 179
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "079-building-a-linear-graph",
+            "xp": 200,
+            "status": "untouched",
+            "title": "Построение линейного графика",
+            "id": 164
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "082-plotting-based-on-dataframe",
+            "xp": 50,
+            "status": "untouched",
+            "title": "Построение графика на основе датафрейма",
+            "id": 165
+          },
+          {
+            "type": "video",
+            "exercise_id": "091-adding-text-to-charts",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Добавляем текст на графики",
+            "id": 180
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "128-adding-a-legend-to-diagram",
+            "xp": 200,
+            "status": "untouched",
+            "title": "Добавляем легенду на диаграмму",
+            "id": 170
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "139-sign-axes-graphs",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Подписываем оси графиков",
+            "id": 171
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "151-adding-text-to-diagram",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Добавляем текст на диаграмму",
+            "id": 172
+          },
+          {
+            "type": "video",
+            "exercise_id": "160-changing-styles-charts",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Изменяем стили графиков",
+            "id": 181
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "161-style-lines-and-markers",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Стиль линий и маркеры",
+            "id": 173
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "210-style-charts",
+            "xp": 200,
+            "status": "untouched",
+            "title": "Стиль диаграммы",
+            "id": 177
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "221-changing-basic-parameters-charts",
+            "xp": 200,
+            "status": "untouched",
+            "title": "Изменяем основные параметры диаграммы",
+            "id": 178
+          }
+        ],
+        "slug": "matplotlib"
+      },
+      {
+        "name": "Строим другие типы графиков с помощью библиотеки Matplotlib",
+        "is_free": false,
+        "description": "",
+        "exercises": [
+          {
+            "type": "video",
+            "exercise_id": "099-dot-chart",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Точечная диаграмма",
+            "id": 201
+          },
+          {
+            "type": "normal_exercise",
+            "exercise_id": "101-building-a-dot-diagram",
+            "xp": 50,
+            "status": "untouched",
+            "title": "Строим точечную диаграмму",
+            "id": 182
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "106-changing-the-dot-diagram",
+            "xp": 200,
+            "status": "untouched",
+            "title": "Изменяем точечную диаграмму",
+            "id": 186
+          },
+          {
+            "type": "video",
+            "exercise_id": "134-bar-chart",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Столбиковая диаграмма",
+            "id": 202
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "136-bar-chart",
+            "xp": 200,
+            "status": "untouched",
+            "title": "Столбиковая диаграмма",
+            "id": 193
+          },
+          {
+            "type": "video",
+            "exercise_id": "164-histogram",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Гистограмма",
+            "id": 203
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "166-building-a-histogram",
+            "xp": 200,
+            "status": "untouched",
+            "title": "Строим гистограмму",
+            "id": 194
+          },
+          {
+            "type": "bullet_point_exercise",
+            "exercise_id": "194-changing-style-histograms",
+            "xp": 250,
+            "status": "untouched",
+            "title": "Изменяем стиль гистограммы",
+            "id": 198
+          },
+          {
+            "type": "quiz",
+            "exercise_id": "211-we-find-the-criminal",
+            "xp": 200,
+            "status": "untouched",
+            "title": "Находим преступника!",
+            "id": 199
+          },
+          {
+            "type": "video",
+            "exercise_id": "224-the-criminal-is-caught",
+            "xp": 100,
+            "status": "untouched",
+            "title": "Преступник пойман",
+            "id": 204
+          }
+        ],
+        "slug": "matplotlib-99d4f9af-6c84-4cc3-97b9-4a796d0b6d62"
+      }
+    ],
+    "long_description": "Начните свое путешествие в науку о данных! Даже если вы никогда в жизни не написали ни строчки кода, вы сможете пройти этот курс и стать свидетелем возможностей Python в области Data Science. Вы познакомитесь с базовым синтаксисом Python и популярными библиотеками Data Science, такими как Matplotlib (для диаграмм) и Pandas (для табличных данных)."
+  }
+  
